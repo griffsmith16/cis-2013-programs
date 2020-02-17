@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: blue;
+}
+
+#content {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: red;
+    border: 3px dashed white;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    display: inherit;
+    float: left;
+    width: 75px;
+}
+
+#futureValue {
+    color: #FFFFFF;
+}
+
+br {
+    clear: left;
+}
