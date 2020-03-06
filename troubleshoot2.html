@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Printer Troubleshooter</title>
+
+	
+	<script src="troubleshoot2.js"></script>
+
+</head>
+
+<body>
+        <br>
+		<h1>Welcome to the Printer Troubleshooter</h1><br>
+		
+		<h3>Does your printer ... print?</h3>
+		<select class="select-picker" >
+			<option value="" disabled selected style="display: none;">Please choose one.</option>
+			<option id="yes_printing">The printer DOES print</option>
+			<option id="not_printing">The printer does NOT print</option>
+		</select><br>
+
+		<h3>Is the printer red light flashing?</h3>
+		<select class="select-picker" >
+			<option value="" disabled selected style="display: none;">Please choose one.</option>
+			<option id="yes_redlight">The printer red light IS flashing</option>
+			<option id="no_redlight">The printer red light is NOT flashing</option>
+		</select><br>
+
+		<h3>Does your computer recognize the printer?</h3>
+		<select class="select-picker" >
+			<option value="" disabled selected style="display: none;">Please choose one.</option>
+			<option id="yes_recognised">The printer IS recognised</option>
+			<option id="not_recognised">The printer is NOT recognised</option>
+		</select><br><br><br>
+		
+		<button type="button" id="troubleshoot" class="btn btn-primary">Troubleshoot!</button>
+        <br><br>
+
+		<textarea rows="4" cols="75" id="output" placeholder="What troubleshooting steps should you take?" disabled=></textarea>
+        
+           <img src="printertroubleshoottable.png" class="img-responsive" alt="Responsive image" class="img-rounded" width="450" height="375">
+    </div>
+ 
+    
+</body>
+</html>
