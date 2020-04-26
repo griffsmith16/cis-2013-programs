@@ -17,10 +17,10 @@ var vowels = function ()
 		var intVowels = 0;
 		for (intCount = 0; intCount < stringEntry.length; intCount++)
         {
-            if (stringEntry.charAt(intCount)=== "A" || stringEntry.charAt(intCount)=== "E" || stringEntry.charAt(intCount)=== "I" ||stringEntry.charAt(intCount)=== "O" || stringEntry.charAt(intCount)=== "U")
+             if (stringEntry.charAt(intCount) === "A" || stringEntry.charAt(intCount) === "E" ||stringEntry.charAt(intCount) === "I" ||stringEntry.charAt(intCount) === "O" ||stringEntry.charAt(intCount) === "U")
             {
-              intVowels++;  
-            }
+                intVowels++;
+            }   
         }//insert for loop here
 		
 		
