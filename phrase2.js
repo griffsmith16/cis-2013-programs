@@ -19,7 +19,7 @@ var vowels = function ()
         {
             if (stringEntry.charAt(intCount)=== "A" || stringEntry.charAt(intCount)=== "E" || stringEntry.charAt(intCount)=== "I" ||stringEntry.charAt(intCount)=== "O" || stringEntry.charAt(intCount)=== "U")
             {
-                intCowels++;
+                intVowels++;
             }
         }//insert for loop here
 		
